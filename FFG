@@ -10,8 +10,8 @@ import time
 from operator import attrgetter
  def main():
     # Create the League Object    
-    league_id = 273350
-    year = 2017
+    league_id = http://games.espn.com/ffl/standings?leagueId=699876&seasonId=2018#
+    year = 2018
     league = League(league_id, year)
      bot = commands.Bot(command_prefix="/")
      @bot.event
